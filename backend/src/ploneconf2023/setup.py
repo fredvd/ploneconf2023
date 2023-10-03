@@ -49,6 +49,7 @@ setup(
         "Plone",
         "prettyconf",
         "plone.api",
+        "pas.plugins.authomatic"
     ],
     extras_require={
         "test": [
@@ -59,8 +60,7 @@ setup(
             "zest.releaser[recommended]",
             "plone.app.testing[robot]>=7.0.0a3",
             "plone.restapi[test]",
-            "collective.MockMailHost",
-        ],
+            "collective.MockMailHost"        ],
     },
     entry_points="""
     [z3c.autoinclude.plugin]
